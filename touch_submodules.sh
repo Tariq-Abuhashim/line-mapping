@@ -75,3 +75,8 @@ cd third-party/pytlsd
 git checkout 21381ca
 cd ../../
 
+# Commit the Changes
+git add .gitmodules third-party/
+git commit -m "Update submodules to specific commits"
+git push
+
