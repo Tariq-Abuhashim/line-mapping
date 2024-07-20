@@ -13,6 +13,7 @@
 [submodule "third-party/RansacLib"]
 	path = third-party/RansacLib
 	url = https://github.com/B1ueber2y/RansacLib.git
+    branch = header-only
 [submodule "third-party/HighFive"]
 	path = third-party/HighFive
 	url = https://github.com/B1ueber2y/HighFive.git
@@ -25,6 +26,7 @@
 [submodule "third-party/hawp"]
 	path = third-party/hawp
 	url = https://github.com/cherubicXN/hawp.git
+    ignore = dirty
 [submodule "third-party/TP-LSD"]
 	path = third-party/TP-LSD
 	url = https://github.com/rpautrat/TP-LSD.git
