@@ -19,9 +19,6 @@
 [submodule "third-party/TP-LSD"]
 	path = third-party/TP-LSD
 	url = https://github.com/rpautrat/TP-LSD.git
-[submodule "third-party/hawp"]
-	path = third-party/hawp
-	url = https://github.com/cherubicXN/hawp.git
 [submodule "third-party/libigl"]
 	path = third-party/libigl
 	url = https://github.com/B1ueber2y/libigl.git
