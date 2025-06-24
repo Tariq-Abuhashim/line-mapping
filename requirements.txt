@@ -2,7 +2,7 @@ pyyaml
 tqdm
 attrdict
 h5py
-numpy<=1.26.4
+numpy
 scipy
 matplotlib
 seaborn
@@ -21,14 +21,15 @@ omegaconf
 rtree
 plyfile
 pathlib
-open3d==0.18.0
+open3d==0.16.0
 imagesize
 einops
 ninja
 yacs
 python-json-logger
 
-pytlsd@git+https://github.com/iago-suarez/pytlsd.git@4180ab8
-deeplsd@git+https://github.com/cvg/DeepLSD.git@88c589d
-gluestick@git+https://github.com/cvg/GlueStick.git@7d81673
--e git+https://github.com/B1ueber2y/Hierarchical-Localization.git@dfe106a#egg=hloc
+./third-party/pytlsd
+./third-party/hawp
+-e ./third-party/Hierarchical-Localization
+-e ./third-party/DeepLSD
+-e ./third-party/GlueStick
